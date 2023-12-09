@@ -13,13 +13,11 @@ function App() {
       <CardContextProvider>
         <div className="App">
           <Navigation />
-
           {/* Routelar */}
           <main className="content">
             <Route exact path="/">
               <Products/>
             </Route>
-
             <Route path="/cart">
               <ShoppingCart/>
             </Route>
